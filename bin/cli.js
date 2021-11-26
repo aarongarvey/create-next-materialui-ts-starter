@@ -26,4 +26,4 @@ const installedDeps = runCommand(installDepsCommand);
 if (!installedDeps) process.exit(-1);
 
 console.log('Congratualtions! Your starter template is ready for action. Run the the following commands to start');
-console.log('\x1b[31m%s\x1b[0m', `cd ${repoName} && npm run dev`)
+console.log('\x1b[32m%s\x1b[0m', `cd ${repoName} && npm run dev`)

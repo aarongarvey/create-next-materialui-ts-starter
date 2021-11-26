@@ -1,6 +1,6 @@
 {
   "name": "create-next-materialui-ts-starter",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "bin": "./bin/cli.js",
   "scripts": {
     "dev": "next dev",
