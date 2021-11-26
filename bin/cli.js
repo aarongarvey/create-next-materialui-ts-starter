@@ -23,7 +23,7 @@ if (!checkedOut) process.exit(-1);
 console.log(`Installing dependancies for ${repoName}`);
 
 const installedDeps = runCommand(installDepsCommand);
-if (!installDeps) process.exit(-1);
+if (!installedDeps) process.exit(-1);
 
-console.log('Congratualtions! You are ready. Follow the ollowing commands to start');
-console.log(`cd ${repoName} && npm start`);
+console.log('Congratualtions! Your starter template is ready for action. Run the the following commands to start');
+console.log('\x1b[31m%s\x1b[0m', `cd ${repoName} && npm run dev`)
